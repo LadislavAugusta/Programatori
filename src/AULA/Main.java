@@ -8,6 +8,7 @@ import java.sql.SQLException;
 public class Main {
 
     public static void main(String[] args) {
+        //
         try {
             Database database = new Database("osoby", "root", "");
             Object[] firstParams = {22, "Gali", 43, "PHP"};
